@@ -1,0 +1,85 @@
+======================================================================
+TASK 1: İtalyan Pastasi "Penne all'Arrabbiata" Resept Sahifesi
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+CSS ve JavaScript istifade etmeden, sirf HTML-in metn formatlama,
+media, siyahi ve interaktiv teqlerinden istifade ederek funksional
+bir kulinariya sahifesi yigmaq. Eyni zamanda haqiqi İtalyan pastasinin
+hazirlanma sirrini oyrenmek!
+
+----------------------------------------------------------------------
+OYRENECENIZ MAARIFLENDIRICI MELUMATLAR:
+----------------------------------------------------------------------
+1. Niye "Arrabbiata"? İtalyanca "arrabbiata" sozu "qezebli" demekdir.
+   Sousun terkibindeki aci qirmizi biber insanda daxili istilik ve
+   uz qizarmasi yaratdigi ucun bu adi alib.
+2. "Al dente" nedir? Makaronun tam yumsalmadan, yungul dise deyecek
+   berklikde bisirilme derecesidir.
+3. Kimyevi/Temperatur meyarlari: Duzgun pasta ucun suyun qaynama
+   temperaturu deqiq 100°C olmali ve suya mutleq H2O terkibini
+   berkiden duz qatilmalidir.
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI SIYAHISI (CHECKLIST)
+----------------------------------------------------------------------
+Kodu yazarken asagidaki teqlerin HER BIRINI istifade etmelisen:
+[ ] <h1>                (Esas basliq ucun)
+[ ] <figure>, <figcaption> (Sekil ve onun rasmi basliqi ucun)
+[ ] <img>               (Pastanin fotosu ucun)
+[ ] <details>, <summary> (Gizli "Niye Qezebli?" qutusu ucun)
+[ ] <h2>                (Alt basliqlar ucun)
+[ ] <ul>, <li>          (Inqrediyentler - sirasiz siyahi ucun)
+[ ] <mark>              (En vacib erzagi sari vurglamaq ucun)
+[ ] <hr>                (Bolmeleri ayiran ufuqi xett ucun)
+[ ] <ol>, <li>          (Hazirlanma addimlari - sirali siyahi ucun)
+[ ] <sup>               (Ust indeks - 100°C yazmaq ucun)
+[ ] <sub>               (Alt indeks - H2O yazmaq ucun)
+[ ] <pre>               (Aspazin xususi qeydini saxlamasi ucun)
+[ ] <a>                 (Xarici link ucun)
+
+----------------------------------------------------------------------
+SAHIFENIN STRUKTUR SERTLERI (ADDIM-ADDIM)
+----------------------------------------------------------------------
+
+1. SAHIFENI BASLIQI VE MEDIA BOLMESI:
+   - <h1> ile "Penne all'Arrabbiata (Acili İtalyan Pastasi)" yaz.
+   - <figure> teqi ac, daxiline <img> ile foto yerlestir.
+   - Seklin altina <figcaption> ile "Sekil 1: Orijinal Roma uslubunda
+     hazirlanmis Penne all'Arrabbiata" elave et.
+
+2. GIZLI INTERAKTIV MELUMAT (FAQ QUTUSU):
+   - <details> teqi yarat.
+   - Basliq olaraq <summary> daxilinde "Bu yemek niye 'Arrabbiata'
+     (Qezebli) adlanir?" yaz.
+   - Qutunun daxiline <p> ile adin tarixcesini ve aci biber faktini yaz.
+
+3. TERKIBI VE INQREDIYENTLER:
+   - <h2>Inqrediyentler (4 porsiya ucun)</h2> basliqi qoy.
+   - <ul> siyahisi ac ve <li> ile erzaqlari yaz:
+     * 350q Penne makaronu
+     * 400q Soyulmus pomidor (ve ya canned passata)
+     * 2 dis teze sarimsaq
+     * Zeytun yagi (Extra Virgin)
+     * Teze ceferi ve rendelenmis Pecorino pendiri
+     * Aci qirmizi biber (Bu erzagin ustune <mark> teqi ver!)
+
+4. HAZIRLANMA ADDIMLARI:
+   - Bolmeden evvel bir <hr> xetti cek.
+   - <h2>Hazirlanma Qaydasi (Step-by-Step)</h2> basliqi ac.
+   - <ol> (nomreli siyahi) daxilinde sirayla yaz:
+     1. Boyuk qazanda suyu qaynadin.
+     2. Tavada zeytun yagini qizdirib narin dogranmis sarimsaq ve aci
+        biberi 1 deqiqe qovurun.
+     3. Pomidor sousunu elave edib orta odda 10-15 deqiqe bisirin.
+     4. Makaronu al dente derecesine qeder bisirib suzun ve sousa qatin.
+
+5. ASPAZIN KIMYEVI VE TEMPERATUR QEYDI:
+   - <h2>Xususi Meslehetler</h2> basliqi ac.
+   - Metn daxilinde 100°C yazmaq ucun 100<sup>o</sup>C istifade et.
+   - Metn daxilinde H2O yazmaq ucun H<sub>2</sub>O istifade et.
+   - Aspazin xususi qeydini <pre> teqi daxilinde yaz.
+
+6. MENBE KECIDI:
+   - Sahifenin en altinda <a> teqi ile Vikipediyaya geden link qoy.
+======================================================================

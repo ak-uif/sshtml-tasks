@@ -1,0 +1,137 @@
+======================================================================
+10 KOMPLEKS HTML TAPSHIRIQI (PURE HTML - NO CSS / NO JS)
+======================================================================
+
+----------------------------------------------------------------------
+TASK 1: ITALYAN PASTASI "PENNE ALL'ARRABBIATA" RESEPT SAHIFESI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Haqiqi İtalyan sousunun bisirilme qaydasi, "Al dente"
+  ve "Arrabbiata" adinin tarixi.
+- MECBURI HTML TEQLERI: <h1>, <figure>, <img>, <figcaption>, <details>,
+  <summary>, <h2>, <ul>, <ol>, <li>, <mark>, <hr>, <sup>, <sub>, <pre>, <a>
+- SHARTLER:
+  1. <h1> ile yemek adi ve <figure> daxilinde <img> ile foto, altinda <figcaption>.
+  2. <details> ve <summary> ile "Niye Arrabbiata (Qezebli) adlanir?" FAQ qutusu.
+  3. <h2>Inqrediyentler</h2> alti <ul> siyahisi (aci biber <mark> olunmalidir).
+  4. <hr> xettinden sonra <ol> ile addim-addim hazirlanma qaydasi.
+  5. 100<sup>o</sup>C ve H<sub>2</sub>O istifade ederek kimyevi/temperatur qeydi.
+  6. Aspazin daxili bosluqlu xususi mesleheti <pre> daxilinde.
+  7. En altda <a> ile Vikipediyaya xarici link.
+
+----------------------------------------------------------------------
+TASK 2: YERDEN KENAR ALEM: MARS PLANETINE BELEDCI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Qirmizi planetin xususiyyetleri, atmosfer terkibi ve
+  "Olympus Mons" dagi haqqinda elmi faktlar.
+- MECBURI HTML TEQLERI: <header>, <nav>, <main>, <section>, <article>,
+  <abbr>, <dl>, <dt>, <dd>, <pre>, <footer>, <address>
+- SHARTLER:
+  1. Semantik <header> daxilinde <nav> linkleri, <main> daxilinde <section>.
+  2. <abbr title="National Aeronautics and Space Administration">NASA</abbr> qisaltmasi.
+  3. NASA-nin Mars datalarini oldugu kimi saxlayan <pre> bloku.
+  4. Mars terminleri luget siyahisi: <dl>, <dt> (Mes: Regolith), <dd> (Izahi).
+  5. Marsin fiziki parametrleri haqqinda oxunaqli <article> bolmesi.
+  6. <footer> daxilinde NASA rasmi unvani ucun <address> teqi.
+
+----------------------------------------------------------------------
+TASK 3: DUNYA OLKELERININ IQTISADI GOSTERICILERI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: UDM (GDP) uzre top olkeler, ehali sayi ve valyuta sistemleri.
+- MECBURI HTML TEQLERI: <table>, <caption>, <tr>, <th>, <td>, border,
+  cellpadding, cellspacing, <h2>, <p>
+- SHARTLER:
+  1. <table border="1" cellpadding="10" cellspacing="0"> parametri ile cedvel.
+  2. <caption> ile "2026-ci Il Umumi Daxili Mehsul (UDM) Statistikasi".
+  3. Basliq satirinde <th> ile: Olke, Paytaxt, Valyuta, Ehali, UDM ($).
+  4. En az 5 ferqli olke ucun <td> ile melumat satirleri.
+  5. Cedvelin ustunde ve altinda <p> ile qisa iqtisadi izahatlar.
+
+----------------------------------------------------------------------
+TASK 4: BESHARIYYETIN EN BUYUK IXTIRALARI VE TARIXLERI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Metbee, elektrik, internet ve AI-in keshf tarixleri.
+- MECBURI HTML TEQLERI: <table>, colspan, rowspan, <del>, <ins>, <mark>
+- SHARTLER:
+  1. Cedvelde colspan="3" ile en az 3 sutunu ehate eden "XX Esr Ixtiralari" basliqi.
+  2. rowspan="2" islederek eyni esrde edilmis 2 ixtira ucun Esr xanasini birlesdirmek.
+  3. KOHNELMIS sehvi gostermek ucun <del> (silinmis text) ve yeni tesdiqlenmis
+     tarixleri gostermek ucun <ins> (elave olunmus text).
+  4. En vacib ixtira adinin ustune <mark> teqi vermek.
+
+----------------------------------------------------------------------
+TASK 5: DENIZ QULDURLARININ QIZIL DOVRU VE XERITESI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: 17-ci esrin meshur kapitanlari (Blackbeard ve s.) ve marshrutar.
+- MECBURI HTML TEQLERI: <audio>, <video>, <iframe>, poster, controls, loop,
+  target="_blank", <a>
+- SHARTLER:
+  1. Deniz kukremesi ve ya kulek sesi ucun <audio controls loop> teqi.
+  2. Tarixi senedli film fraqmenti ucun <video controls poster="pirate.jpg">.
+  3. Vikipediyadaki interaktiv deniz xeritesini sehifeye getirmek ucun <iframe>.
+  4. Menbelere kecid ucun target="_blank" olan xarici <a> linkleri.
+
+----------------------------------------------------------------------
+TASK 6: ELON MUSK-IN NEURALINK VE KOSMOS LAYIHELERI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Beyin-komputer interfeysi texnologiyasi ve SpaceX hedefleri.
+- MECBURI HTML TEQLERI: <header>, <nav>, <main>, <aside>, <footer>,
+  <address>, <marquee>, href="#" (bookmark)
+- SHARTLER:
+  1. Sehifenin en ustunde canli yenilikler lenti ucun <marquee scrollamount="6">.
+  2. Sehife daxilinde navigasiya ucun href="#neuralink" kimi bookmark linkleri.
+  3. Yan panelde (<aside>) aksiyalarin qiymetini gosteren blok.
+  4. <footer> daxilinde Neuralink bas qerargah unvani ucun <address>.
+
+----------------------------------------------------------------------
+TASK 7: BEYNALXALQ KOSMIK STANSIYAYA (ISS) ASTRONAVT QEBULU
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Astronavt olmaq ucun fiziki ve elmi telebler.
+- MECBURI HTML TEQLERI: <form>, action, method, type="text", type="password",
+  type="email", placeholder, required, <label for="...">
+- SHARTLER:
+  1. <form action="/apply-space" method="post"> strukturunun qurulmasi.
+  2. Bütün inputlar ucun xususi id ve baglanan <label for="..."> teqleri.
+  3. Astronavt kod adi (text), mexfilik parolu (password), rəsmi əlaqə (email).
+  4. Bütün xanalara ipucu placeholder ve mütləq dolmali olan required şerti.
+  5. Formani gonderen Submit ve temizleyen Reset duymeleri.
+
+----------------------------------------------------------------------
+TASK 8: AVTOMOBIL ISTEHSALATINDA MUASIR TEXNOLOGIYALAR
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Elektrikli mashinlarin batareya hecmi, sharj muddeti ve rengler.
+- MECBURI HTML TEQLERI: type="date", type="time", type="color", type="range",
+  type="number", type="file", min, max, step, multiple, autofocus, readonly, disabled
+- SHARTLER:
+  1. Sehife acilan kimi kursorun birbaşa durmasi ucun ad xanasina autofocus.
+  2. Avtomobil boya rengini secmek ucun type="color".
+  3. Batareya tutumunu nizamlamaq ucun type="range" min="0" max="100".
+  4. Sinaq surushu vaxti ucun type="date" (min/max ile) ve type="time".
+  5. Sürücülük vəsiqəsinin ön ve arxa fotosunu birge yuklemek ucun type="file" multiple.
+  6. Bir xanaya readonly, diger sönülü xanaya disabled vermek.
+
+----------------------------------------------------------------------
+TASK 9: DUNYA KIBER-TEHLUKESIZLIK VE HACKING TEST MERKEZI
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Tehlikesiz parol strukturu, IP unvanlar ve domen sistemleri.
+- MECBURI HTML TEQLERI: <fieldset>, <legend>, <select>, <optgroup>,
+  <textarea>, <datalist>, pattern (Regex)
+- SHARTLER:
+  1. Melumatlari qruplashdiran 2 dənə <fieldset> ve üstünde <legend> basliqlari.
+  2. Proqramlashdirma dili secimi ucun <select> daxilinde <optgroup label="...">.
+  3. Shebeke protokolunu yazarken teklifler cixaran <input list="IP"> ve <datalist>.
+  4. Tehlikesizlik kodu formati ucun pattern="[0-9]{3}-[A-Z]{2}" (Regex).
+  5. Xeta jurnali yazmaq ucun bitishik yazilmish <textarea> (placeholder ucun).
+
+----------------------------------------------------------------------
+TASK 10: QEDIM MISIR EHRAMLARI VE FIRONLAR PORTALI (MASTER TASK)
+----------------------------------------------------------------------
+- OYRENECENIZ MELUMAT: Gizli otaqlar, mumiyalama kimyasi, fironlarin meqbereleri.
+- MECBURI HTML TEQLERI: PDF KONSPEKTDEKI BUTUN TEQLER VE STRUKTURLAR (1-12)
+- SHARTLER:
+  1. Tam Semantik Skelet (<header>, <nav>, <main>, <section>, <article>, <aside>, <footer>).
+  2. Yuxarida hərəkət edən elan üçün <marquee>.
+  3. Fironlarin hiyeroglif datalarini saxlayan colspan/rowspan-li murekkeb cedvel.
+  4. Ehram turlari ucun pattern, datalist, optgroup, range, color, file olan Master Forma.
+  5. Senedli video (<video poster="...">) ve xerite <iframe>.
+  6. Metnde mark, sub, sup, del, ins, <details>/<summary> teqlerinin hamisi.
+======================================================================

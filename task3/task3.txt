@@ -1,0 +1,43 @@
+======================================================================
+TASK 3: DUNYA OLKELERININ IQTISADI GOSTERICILERI
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+HTML-de Cedvel (Table) strukturunu tam kavramaq. UDM (GDP) uzre 
+top olkelerin ehali sayi, valyuta sistemleri ve iqtisadi gostericilerini
+seliqeli cedvel formasinda teqdim etmek.
+
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI CHECKLIST:
+----------------------------------------------------------------------
+[ ] <table>                     (Cedvelin ana qutusu)
+[ ] border, cellpadding, cellspacing (Cedvel xetleri ve daxili bosluqlar)
+[ ] <caption>                   (Cedvelin resmi basliqi)
+[ ] <tr>                        (Cedvelin her bir seti)
+[ ] <th>                        (Sutun basliqlari ucun)
+[ ] <td>                        (Melumat xanalari ucun)
+[ ] <h2>                        (Sehifenin esas basliqi ucun)
+[ ] <p>                         (Cedvelden evvel ve sonra izahatlar)
+
+
+----------------------------------------------------------------------
+SEHIFENIN STRUKTUR SERTLERI:
+----------------------------------------------------------------------
+
+1. CEDVEL parametrLERI (TABLE & CAPTION):
+   - Cedveli <table border="1" cellpadding="10" cellspacing="0"> ile ac.
+   - Ilk setirde <caption> ile "2026-ci Il Umumi Daxili Mehsul (UDM) Statistikasi" yaz.
+
+2. SUTUN BASLIQLARI (TABLE HEADER):
+   - Ilk <tr> (setir) daxilinde <th> teqleri ile sutun adlarini yaz:
+     * Olke, Paytaxt, Valyuta, Ehali, UDM ($)
+
+3. MELUMAT SATIRLERI (TABLE DATA):
+   - En az 5 ferqli olke ucun <tr> setirleri ac.
+   - Her setir daxilinde <td> teqleri ile gostericileri yerlestir.
+
+4. IQTISADI IZAHATLAR (PARAGRAPHS):
+   - Cedvelin ustunde <h2> ile esas basliq ve <p> ile qisa giris yaz.
+   - Cedvelin altinda ikinci <p> teqi ile yekun iqtisadi qeyd yaz.
+======================================================================

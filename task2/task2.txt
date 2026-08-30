@@ -1,0 +1,45 @@
+======================================================================
+TASK 2: YERDEN KENAR ALEM: MARS PLANETINE BELEDCI
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+Saytin strukturlar qutusunu (skeletini) div isletmeden, sirfe adlandirilmis 
+semantik HTML5 teqleri ile qurmaq. Eyni zamanda Qirmizi Planet 
+haqqinda maraqli elmi faktlar oyrenmek!
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI CHECKLIST:
+----------------------------------------------------------------------
+[ ] <header> ve <nav>    (Saytin en yuxari basliqi ve navigasiyasi ucun)
+[ ] <main> ve <section>  (Esas mezmun ve bolmeler ucun)
+[ ] <article>            (Mars haqqinda oxunaqli meqale bloku ucun)
+[ ] <abbr>               (Nasa qisaltmasi ucun)
+[ ] <pre>                (Nasa datalarini oldugu kimi saxlamaq ucun)
+[ ] <dl>, <dt>, <dd>     (Mars terminleri luget siyahisi ucun)
+[ ] <footer> ve <address>(Sehifenin en altligi ve unvan ucun)
+
+----------------------------------------------------------------------
+SEHIFENIN STRUKTUR SERTLERI:
+----------------------------------------------------------------------
+
+1. SEMANTIK BASHLA (HEADER & NAV):
+   - Sehifeni <header> teqi ile basla. İçine sehife basliqi ve <nav> daxilinde 
+     bolmelere kecid linkleri qoy.
+
+2. ESAS MEZMUN (MAIN & SECTION):
+   - Bütün esas mezmunu <main> teqi daxilinde yaz.
+   - Birinci <section> daxilinde Mars haqqinda umumi meqale üçün <article> islet.
+   - Meqale daxilinde NASA sozunu <abbr title="National Aeronautics and Space Administration"> 
+     teqi ile sar.
+
+3. NASA DATALARI VE LUGET (DATA & DICTIONARY):
+   - İkinci <section> daxilinde NASA-nin Mars haqqinda ham verilerini (meselen: 
+     atmosfer teziqi, temperatur araliqi) <pre> daxilinde girintili yaz.
+   - Mars terminleri ucun <dl> luget siyahisi ac. En az 2 termin:
+     * <dt> ile terminin adi (mes: Regolith, Olympus Mons)
+     * <dd> ile terminin qisa izahi
+
+4. SAYTIN ALTLIQI (FOOTER):
+   - En altda <footer> teqi ac.
+   - Daxilinde NASA-nin bas qerargah unvanini gosteren <address> teqini yerlestir.
+======================================================================
