@@ -1,0 +1,39 @@
+======================================================================
+TASK 5: DENIZ QULDURLARININ QIZIL DOVRU VE XERITESI
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+HTML-də multimedia elementlərini (`<audio>`, `<video>`), `<iframe>` ilə 
+xarici səhifə/xəritə inteqrasiyasını və `<a>` teqinin `target="_blank"` 
+atributu ilə xarici keçidlər yaratmağı öyrənmək.
+
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI CHECKLIST:
+----------------------------------------------------------------------
+[ ] <audio>                     (Səs faylı əlavə etmək üçün)
+[ ] <video>                     (Video faylı əlavə etmək üçün)
+[ ] <iframe>                    (Xarici xəritə/səhifə pəncərəsi üçün)
+[ ] poster                      (Video yüklənənədək görünən örtük şəkli)
+[ ] controls                    (Audio/Video idarəetmə düymələri)
+[ ] loop                        (Səsin kəsilmədən təkrar olunması üçün)
+[ ] target="_blank"             (Linki yeni tab-da açmaq üçün)
+[ ] <a>                         (Mənbələrə keçid linkləri)
+
+
+----------------------------------------------------------------------
+SEHIFENIN STRUKTUR SERTLERI:
+----------------------------------------------------------------------
+
+1. SƏS FONU (AUDIO):
+   - Dəniz kükrəməsi və ya külək sesi üçün `<audio controls loop>` teqini yerləşdir.
+
+2. FİLM FRAQMENTİ (VIDEO):
+   - Tarixi sənədli film fraqmenti üçün `<video controls poster="pirate.jpg">` teqindən istifadə et.
+
+3. XƏRİTƏ İNTEQRASİYASI (IFRAME):
+   - Vikipediyadakı interaktiv dəniz xəritəsini (və ya başqa xəritə keçidini) səhifəyə gətirmək üçün `<iframe>` işlət.
+
+4. XARİCİ KEÇİDLƏR (LINK):
+   - Əlavə mənbələrə keçid üçün `target="_blank"` atributu olan xarici `<a>` linkləri əlavə et.
+======================================================================
