@@ -1,0 +1,36 @@
+======================================================================
+TASK 4: BESHERIYYETIN EN BUYUK IXTIRALARI VE TARIXLERI
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+HTML cədvəllərində xana birləşdirmə (`colspan`, `rowspan`) məntiqini 
+və mətn redaktə/vurğulama teqlərini (`<del>`, `<ins>`, `<mark>`) öyrənmək. 
+Mətbəə, elektrik, internet və süni intellektin kəşf tarixlərini cədvəldə göstərmək.
+
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI CHECKLIST:
+----------------------------------------------------------------------
+[ ] <table>                     (Cədvəl ana strukturu)
+[ ] colspan                     (Sütunları üfqi birləşdirmək üçün)
+[ ] rowspan                     (Sətirləri şaquli birləşdirmək üçün)
+[ ] <del>                       (Köhnəlmiş/səhv tarixi üstündən xətt çəkmək üçün)
+[ ] <ins>                       (Yeni/dəqiqləşmiş tarixi vurğulamaq üçün)
+[ ] <mark>                      (Ən vacib ixtira adını sarı ilə vurğulamaq üçün)
+
+
+----------------------------------------------------------------------
+SEHIFENIN STRUKTUR SERTLERI:
+----------------------------------------------------------------------
+
+1. SÜTUN BİRLƏŞDİRMƏ (COLSPAN):
+   - Cədvəlin daxilində ən azı 3 sütunu əhatə edən <th colspan="3">XX Esr Ixtiralari</th> başlığı qoy.
+
+2. SƏTİR BİRLƏŞDİRMƏ (ROWSPAN):
+   - Eyni əsrdə edilmiş 2 ixtira üçün `rowspan="2"` işlədərək Əsr xanasını şaquli birləşdir.
+
+3. MƏTN REDAKTƏ VƏ VURĞU TEQLƏRİ:
+   - Köhnəlmiş və ya səhv tarixi göstərmək üçün <del> teqindən istifadə et.
+   - Dəqiqləşdirilmiş yeni tarihi göstərmək üçün <ins> teqindən istifadə et.
+   - Ən vacib saydığın ixtira adının üstünə <mark> teqi ver.
+======================================================================
