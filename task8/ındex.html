@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVTOMOBİL İSTEHSALATI</title>
+</head>
+<body bgcolor="pink">
+    <hr size="3" color="black" />
+
+    <h2 align="center">Muasir avromabil istehsali</h2>
+
+    <hr size="3" color="black" />
+
+    <center>
+        <img src="cybertrunk.jpg" alt="CyberTrunk" width="500px">
+    </center>
+    
+    <p><b>Bu Saytda elektrikli masinlarin rengleri,bateryasini tenzimleye ve surus vaxtini sece bilersiniz lakin sizden bize sexsiyet vesiqenizin ve masin ucun lazim olan senedlerinizin gonderilmesi teleb edilir ( sexsiyet vesiqesinin 2 uzude  gonderilmelidir)</b></p>
+    
+    <hr size="3" color="black" />
+
+    <form action="server" method="post">
+        <fieldset style="border: 2px solid saddlebrown; border-radius: 6px; padding: 15px; margin: 10px;">
+            <legend>Qeydiyat</legend>
+
+            <label for="ad">Adinizi Daxil edin:</label>
+            <input type="text" id="ad" name="ad" placeholder="Mes: tesla novruzov" required autofocus>
+
+        </fieldset>
+
+        <fieldset style="border: 2px solid saddlebrown; border-radius: 6px; padding: 15px; margin: 10px;">
+            <legend>Masin melumatlari</legend>
+
+            <label for="reng">Rengi secin:</label>
+            <input type="color" id="reng" name="reng" required>
+        </fieldset>
+
+        <hr size="3" color="black" />
+
+        <label for="pil">Pilini sec: (0-100):</label>
+        <input type="range" min="0" max="100" step="2" id="pil" name="pil">
+
+        <hr size="3" color="black" />
+
+        <label for="sinaq">sinaq surusu ucun vaxt secin:</label>
+        <input type="datetime-local" min="2026-09-01T09:00" max="2026-09-15T18:00" id="sinaq" name="sinaq">
+
+        <br />
+        <br />
+
+        <label for="senedler">senedleri ve sexsiyet vesiqesinin 2 uzunude yukleyin:</label>
+        <input type="file" multiple id="senedler" name="senedler[]">
+
+
+
+    </form>
+
+
+</body>
+</html>

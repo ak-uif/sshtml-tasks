@@ -1,0 +1,35 @@
+================================================================================
+TASK 8: AVTOMOBİL İSTEHSALATINDA MÜASİR TEXNOLOGİYALAR
+================================================================================
+
+LAYİHƏNİN MƏQSƏDİ:
+Elektrikli avtomobil sifarişi/tənzimlənməsi forması üzərində xüsusi HTML5 input 
+növlərini (date, time, color, range, number, file) və xana idarəetmə atributlarını 
+(autofocus, readonly, disabled, min, max, step, multiple) təcrübədə öyrənmək.
+
+--------------------------------------------------------------------------------
+MƏCBURİ HTML TEQLƏRİ VƏ ATRIBUTLARI CHECKLIST:
+--------------------------------------------------------------------------------
+
+[ ] type="text"      (İstifadəçi adı üçün)
+[ ] autofocus        (Səhifə açılan kimi kursorun avtomatik bu xanaya fokuslanması)
+[ ] type="color"     (Avtomobilin boya rəngini seçmək üçün)
+[ ] type="range"     (Batareya tutumunu faizlə nizamlamaq üçün: min="0" max="100")
+[ ] type="number"    (Batareya zəmanət ili və ya miqdar üçün)
+[ ] min / max / step (Ədədi sahələr və range üçün hədlərin və addımın təyini)
+[ ] type="date"      (Sınaq sürüşü günü üçün min və max tarixləri ilə)
+[ ] type="time"      (Sınaq sürüşü saatı üçün)
+[ ] type="file"      (Fayl yükləmək üçün)
+[ ] multiple         (Sürücülük vəsiqəsinin ön və arxa fotosunu birgə yükləmək üçün)
+[ ] readonly         (Dəyişdirilə bilməyən, sadəcə oxunan xana üçün)
+[ ] disabled         (Deaktiv olunmuş, seçilə bilməyən xana üçün)
+
+--------------------------------------------------------------------------------
+GÖSTƏRİŞLƏR VƏ ŞƏRTLƏR:
+--------------------------------------------------------------------------------
+1. Səhifə açılan kimi kursorun birbaşa durması üçün ad xanasına `autofocus` atributu verin.
+2. Avtomobil boya rəngini seçmək üçün `type="color"` input-u yerləşdirin.
+3. Batareya tutumunu nizamlamaq üçün `type="range"` (min="0", max="100", step="5") istifadə edin.
+4. Sınaq sürüşü vaxtı üçün `type="date"` (min və max tarixləri ilə) və `type="time"` xanaları əlavə edin.
+5. Sürücülük vəsiqəsinin ön və arxa fotosunu birgə yükləmək üçün `type="file"` input-una `multiple` atributu verin.
+6. Sistem tərəfindən təyin olunmuş sabit baza qiyməti üçün `readonly`, hazırda aktiv olmayan opsiyalar üçün isə `disabled` atributundan istifadə edin.
