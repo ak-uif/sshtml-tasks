@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    gap: 20px;
+}
+
+section{
+    flex: 3;
+}
+
+aside{
+    flex: 1;
+}

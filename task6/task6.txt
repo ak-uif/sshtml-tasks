@@ -1,0 +1,44 @@
+======================================================================
+TASK 6: ELON MUSK-IN NEURALINK VE KOSMOS LAYIHELERI
+======================================================================
+
+LAYIHE NIN MEQSEDI:
+HTML5 semantik teqlərindən (`<header>`, `<nav>`, `<main>`, `<section>`, 
+`<article>`, `<aside>`, `<footer>`), səhifədaxili navigasiya (bookmark `href="#..."`), 
+axan mətn (`marquee`) və ünvan teqindən (`<address>`) istifadə etməyi öyrənmək. 
+Beyin-kompüter interfeysi və SpaceX hədəfləri haqqında səhifə qurmaq.
+
+
+----------------------------------------------------------------------
+MECBURI HTML TEQLERI CHECKLIST:
+----------------------------------------------------------------------
+[ ] <header>                    (Səhifənin yuхarı başlıq hissəsi)
+[ ] <nav>                       (Naviqasiya menyusu)
+[ ] <main>                      (Əsas məzmun sahəsi)
+[ ] <section>                   (Mövzu üzrə bölmələr: Neuralink və SpaceX)
+[ ] <article>                   (Bölmə daxilində müstəqil xəbər/məqalə bloku)
+[ ] <aside>                     (Yan panel - səhmlər/qısa məlumat)
+[ ] <footer>                    (Səhifənin alt hissəsi)
+[ ] <address>                   (Baş qərargah ünvanı üçün)
+[ ] <marquee>                   (Canlı yeniliklər lenti - axan mətn)
+[ ] href="#"                    (Səhifə daxili bookmark keçidləri)
+
+
+----------------------------------------------------------------------
+SEHIFENIN STRUKTUR SERTLERI:
+----------------------------------------------------------------------
+
+1. CANLI YENİLİKLƏR LENTİ (MARQUEE):
+   - Səhifənin ən üstündə `<marquee scrollamount="6">` ilə canlı xəbərlər lenti yerləşdir.
+
+2. SƏHİFƏ DAXİLİ NAVİQASİYA VƏ BÖLMƏLƏR (SECTION & ARTICLE):
+   - `<main>` daxilində mövzuları `<section id="neuralink">` və `<section id="spacex">` ilə ayır.
+   - Hər bölmə daxilində məlumatları `<article>` teqləri içində yaz.
+   - Menyudan bu bölmələrə keçid üçün `<a href="#neuralink">` kimi bookmark linkləri qur.
+
+3. YAN PANEL (ASIDE):
+   - Yan paneldə (`<aside>`) aksiyaların qiymətini göstərən xüsusi blok yarat.
+
+4. ÜNVAN HİSSƏSİ (ADDRESS):
+   - `<footer>` daxilində Neuralink baş qərargah ünvanını göstərmək üçün `<address>` teqindən istifadə et.
+======================================================================
