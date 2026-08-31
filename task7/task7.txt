@@ -1,0 +1,37 @@
+================================================================================
+TASK 7: BEYNƏLXALQ KOSMİK STANSİYAYA (ISS) ASTRONAVT QƏBULU
+================================================================================
+
+LAYİHƏNİN MƏQSƏDİ:
+HTML-də forma strukturunun (<form>) qurulması, istifadəçidən məlumatların 
+təhlükəsiz və düzgün formatda toplanması, input növləri (text, password, email), 
+label-input əlaqələndirilməsi (for/id) və forma idarəetmə düymələrinin 
+(submit, reset) işləmə məntiqini öyrənmək.
+
+--------------------------------------------------------------------------------
+MƏCBURİ HTML TEQLƏRİ CHECKLIST:
+--------------------------------------------------------------------------------
+[ ] <form>       (Forma ana konteyneri)
+[ ] action       (Məlumatların göndəriləcəyi ünvan)
+[ ] method       (Göndərilmə üsulu: POST)
+[ ] <label>      (Xana başlığı və əlaqələndirmə)
+[ ] for="..."    (Label-i input id-sinə bağlayan atribut)
+[ ] type="text"  (Astronavt kod adı üçün)
+[ ] type="password" (Məxfilik parolu üçün)
+[ ] type="email" (Rəsmi əlaqə poçtu üçün)
+[ ] placeholder  (Xana içi köməkçi ipucu mətni)
+[ ] required     (Mütləq doldurulmalı xana şərti)
+[ ] type="submit"(Formanı göndərmə düyməsi)
+[ ] type="reset" (Formanı təmizləmə düyməsi)
+
+--------------------------------------------------------------------------------
+GÖSTƏRİŞLƏR VƏ ŞƏRTLƏR:
+--------------------------------------------------------------------------------
+1. <form action="/apply-space" method="post"> strukturunu qurun.
+2. Bütün input-lar üçün xüsusi `id` və onlara tək-tək bağlanan `<label for="...">` teqləri istifadə edin.
+3. Daxil ediləcək sahələr:
+   - Astronavt Kod Adı: type="text"
+   - Məxfilik Parolu: type="password"
+   - Rəsmi Əlaqə Poçtu: type="email"
+4. Bütün input xanalarına ipucu `placeholder` atributu və formanın boş göndərilməməsi üçün `required` şərtini əlavə edin.
+5. Formanın ən altında göndərmək üçün "Submit" və bütün xanaları sıfırlamaq üçün "Reset" düymələri yerləşdirin.

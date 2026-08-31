@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTRONAVT QƏBULU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center">BEYNƏLXALQ KOSMİK STANSİYAYA (ISS) ASTRONAVT QƏBULU</h1>
+    <p align="center"><b>Qeydiyatdan kecmek ucun formu doldurun</b></p>
+    
+    <form action="server"   method="post" >
+        <fieldset style="border: 2px solid saddlebrown; border-radius: 6px; padding: 15px; margin: 10px;">
+            <legend><b>Qeydiyyat</b></legend>
+
+                <label for="kodadi">Astronavt Kod Adı:</label>
+                <input type="text" id="text" name="text" placeholder="Mes: Jamesbond777" required autofocus>
+
+                <br />
+                <br />
+
+                <label for="sifre">Məxfilik Parolu:</label>
+                <input type="password" id="sifre" name="sifre" placeholder="********" required>
+        </fieldset>
+        
+        <br />
+
+        <fieldset style="border: 2px solid saddlebrown; border-radius: 6px; padding: 15px; margin:10px;">   
+            <legend><b>Elaqe</b></legend>
+
+            <label for="gmail">Rəsmi Əlaqə Poçtu:</label>
+            <input type="email" id="gmail" name="gmail" placeholder="blablabla@gmail.com"required>
+        </fieldset>
+
+        <input type="submit" value="qeydiyatdan kec">
+        <input type="reset" value="temizle">
+    </form>        
+</body>
+</html>
