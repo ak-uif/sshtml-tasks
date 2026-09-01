@@ -15,7 +15,7 @@
 
     <br />
 
-
+<form action="server" method="post">
     <fieldset style="border: 2px solid gold; padding: 10px; margin: 10 px;">
         <legend><b><em>Sexsi melumatlar</em></b></legend>
 
@@ -54,12 +54,13 @@
 
     <br />
     <br />
+    <br />
 
     <fieldset style="border: 2px solid gold; padding: 10px; margin: 10 px;">
         <legend><b><em>Sebeke emlumatlari</em></b></legend>
         
         <label for="protokollar">Protokolu secin:</label>
-        <input type="text" id="protokollar" list="protokolsecim" name="secilenprotokol" placeholder="HTTPS">
+        <input type="text" id="protokollar" list="protokolsecim" name="secilenprotokol" placeholder="HTTPS" required>
 
         <datalist id="protokolsecim">
             <option value="HTTPS">HTTPS</option>
@@ -67,8 +68,45 @@
             <option value="TCP">TCP</option>
 
         </datalist>
+
+        <br />
+        <br />
+
+        <label for="gorus">Gorus vaxtini secin:</label>
+        <input type="datetime-local" min="2026-09-01T09:00" max="2026-09-15T18:00" id="gorus" name="gorus" required>
+
+        <br />
+        <br />
+
+        <label for="yazii">FIKIRLERINIZI YAZIN:</label>
+        <textarea rows="2px" cols="30px" id="yazii" name="yazii" placeholder="COX SUPER SAYT"></textarea>
     
     </fieldset>
+
+    <br />
+    <br />
+
+    <hr size="3px" width="autofocus" color="gold" />
+
+    <br />
+    <br />
+
+    <label for="submit">Gonderrrrrrrrrr</label>
+    <input type="submit" id="submit" value="submit">
+
+    <br />
+    <br />
+    <br />
+    
+
+    <label for="reset">sil herseyi</label>
+    <input type="reset" id="reset" name="reset" value="reset">
+
+    <br />
+    <br />
+
+    <hr size="3px" width="autofocus" color="gold" />
+</form>
 
 
 </body>
