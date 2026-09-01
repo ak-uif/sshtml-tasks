@@ -39,21 +39,44 @@
         <hr size="3" color="black" />
 
         <label for="pil">Pilini sec: (0-100):</label>
-        <input type="range" min="0" max="100" step="2" id="pil" name="pil">
+        <input type="range" min="0" max="100" step="2" id="pil" name="pil" required>
 
         <hr size="3" color="black" />
 
         <label for="sinaq">sinaq surusu ucun vaxt secin:</label>
-        <input type="datetime-local" min="2026-09-01T09:00" max="2026-09-15T18:00" id="sinaq" name="sinaq">
+        <input type="datetime-local" min="2026-09-01T09:00" max="2026-09-15T18:00" id="sinaq" name="sinaq" required>
 
         <br />
         <br />
 
         <label for="senedler">senedleri ve sexsiyet vesiqesinin 2 uzunude yukleyin:</label>
-        <input type="file" multiple id="senedler" name="senedler[]">
+        <input type="file" multiple id="senedler" name="senedler[]" required>
 
+        <br />
+        <br />
 
+        <label for="sifaris">Sifaris ID:</label>
+        <input type="text" id="sifaris" name="sifaris" value="1234567890" readonly>
 
+        <br />
+        <br />
+
+        <label for="promo">Promo kod:</label>
+        <input type="text" id="promo" name="promo" value="PROMO2026" disabled>
+
+        <br />
+        <br />
+
+        <label for="submit">Sifaris et:</label>
+        <input type="submit" id="submit" value="sifaris ele">
+
+        <br />
+        <br />
+
+        <label for="reset"> formu temizleyin</label>
+        <input type="reset" id="reset" name="reset" value="temizle">
+
+        <hr size="3" color="black" />
     </form>
 
 

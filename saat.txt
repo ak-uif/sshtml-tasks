@@ -1,0 +1,39 @@
+==================================================
+        30 GÜNLÜK STRATEJİ ZAMAN BÜDCƏSİ
+==================================================
+
+1. REJİM VƏ VAQT BÖLÜŞDÜRÜLMƏSİ (GÜNDƏLİK)
+--------------------------------------------------
+* Gecə Yuxusu:       07:00 saat (22:00 - 05:00)
+* Oyanma Sesiyası:  01:00 saat (Hazırlıq + Planlama)
+* Günorta Sesiyası: 01:15 saat (45 dəq yuxu + yemək/ehtiyac)
+* Yatma Sesiyası:   00:20 saat (Sakitləşmə)
+* Günlük Bufer:     01:00 saat (Mikro fasilələr/gecikmələr)
+
+2. HƏFTƏLİK VƏ AYLIQ MÜDDƏTLƏR (30 GÜN / 720 SAAT)
+--------------------------------------------------
+* Gecə Yuxusu:           210.0 saat
+* Oyanma Sesiyası:        30.0 saat
+* Günorta Sesiyası:       37.5 saat
+* Yatma Sesiyası:         10.0 saat
+* Günlük Əlavə Bufer:     30.0 saat  (30 gün x 1 saat)
+* Həftəlik Dincəlmə:      40.0 saat  (Həftədə 1 gün: 12:00-22:00)
+* Gözlənilməz İşlər:     26.0 saat  (Həftədə 3 dəfə 2 saat)
+--------------------------------------------------
+MƏŞĞUL OLUNAN VAXT:      383.5 saat
+
+==================================================
+YEKUN NƏTİCƏ
+==================================================
+ÜMUMİ VAXT:              720.0 saat
+MƏŞĞUL VAXT:             383.5 saat (53.3%)
+--------------------------------------------------
+XALİS İŞ / TƏHSİL VAXTI: 336.5 SAAT (46.7%)
+GÜNDƏLİK ORTALAMA XALİS:  11.2 SAAT
+==================================================
+
+3. İCRA NÖQTƏLƏRİ
+--------------------------------------------------
+- Günün ilk yarısı (05:00 - 12:00) sırf ağır zehni işlərə (proqramlaşdırma, təhsil) ayrılır.
+- Günün ikinci yarısı daha yüngül tapşırıqlar və təşkilati işlər üçün istifadə olunur.
+- Həftədə 1 gün saat 12:00-dan sonra tam aktiv istirahət rejiminə keçilir.
