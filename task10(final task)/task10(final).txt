@@ -1,0 +1,80 @@
+================================================================================
+TASK 10: QƏDİM MİSİR EHRAMLARI VƏ FİRONS PORTALI (MASTER TASK)
+================================================================================
+
+LAYİHƏNİN MƏQSƏDİ:
+1-dən 12-yə qədər olan bütün bölmələrdəki teqləri, semantik strukturları, ierarxik
+siyahıları, mürəkkəb cədvəlləri və Master Formanı tək bir faylda birləşdirmək.
+
+--------------------------------------------------------------------------------
+YADDAN ÇIXMAYAN VƏ MƏCBURİ HTML TEQLƏRİ CHECKLIST:
+--------------------------------------------------------------------------------
+[ ] <header>, <nav>, <main>, <section>, <article>, <aside>, <footer>  (Semantik)
+[ ] <marquee>                                                         (Hərəkətli elan)
+[ ] İerarxik (İç-içə) Siyahı: <ul> daxilində <ol> daxilində <ul>       (İerarxiya)
+[ ] <table>, <tr>, <th>, <td>, colspan, rowspan                      (Mürəkkəb cədvəl)
+[ ] pattern, datalist, optgroup, range, color, file                   (Master Forma)
+[ ] <video poster="...">, <audio controls>, <iframe>                  (Bütün Multimediya)
+[ ] <mark>, <sub>, <sup>, <del>, <ins>, <abbr>, <address>             (Formatlama)
+[ ] <details>, <summary>                                              (Gizli interaktiv)
+
+--------------------------------------------------------------------------------
+DETALLI ADDIM-ADDIM ŞƏRTLƏR:
+--------------------------------------------------------------------------------
+
+1. SEMANTİK STRUKTUR (Skelet):
+   - <header>: Portalın əsas başlığı və <nav> linkləri.
+   - <nav>: Səhifə daxili keçidlər (Anchor: href="#ehramlar", href="#fironlar", href="#forma").
+   - <main>: Bütün əsas blokları əhatə edən ana teq.
+   - <section>: Ehramlar, İerarxiya, Cədvəl, Multimediya və Forma bölmələri.
+   - <article>: Müstəqil Firon (Məs: Tutanxamon) məqaləsi.
+   - <aside>: Yan panel (Xəbərdarlıq və ya Qədim Misir haqqında qısa fakt).
+   - <footer>: Müəllif hüquqları (&copy; 2026), <address> daxilində ünvan məlumatı.
+
+2. HƏRƏKƏTLİ ELAN VƏ MƏTN FORMATLAMA:
+   - <marquee>: "Diqqət! Gizli sərdabələrə giriş yalnız bələdçi ilə mümkündür!" elanı.
+   - <mark> xüsusi vurğulama, <del> köhnə firon adları, <ins> yeni tapıntılar.
+   - <sub> kimyəvi formul (Məs: Mumiyalama duzu Na₂CO₃), <sup> tarix (Məs: 2500 BC²).
+   - <abbr title="Ancient Egypt Portal">AEP</abbr> qısaltması.
+
+3. İERARXİK (İÇ-İÇƏ MİXED) SİYAHI (Sənin istədiyin ierarxiya):
+   - Ən azı 3 səviyyəli iç-içə siyahı qurulmalıdır:
+     - <ul> (Sülalələr)
+       - <li> IV Sülalə
+         - <ol> (Fironlar)
+           - <li> Xufu (Xeops)
+             - <ul> (Tikililəri)
+               - <li> Böyük Ehram
+               - <li> Böyük Sfinks
+             - </ul>
+           - <li> Xafra
+         - </ol>
+     - </ul>
+
+4. MÜRƏKKƏB CƏDVƏL (Colspan/Rowspan):
+   - Fironların mumiyalama və xəzinə datalarını saxlayan cədvəl:
+   - <caption> başlığı olmalıdır.
+   - <th> ilə sütun başlıqları verilməlidir.
+   - Ən azı bir xanada colspan="2" (yanbayan birfəşmə) olmalıdır.
+   - Ən azı bir xanada rowspan="2" (aşağıya doğru birləşmə) olmalıdır.
+
+5. MULTİMEDİYA İLƏ ZƏNGİNLƏŞDİRMƏ:
+   - <video width="..." controls poster="ehram.jpg">: İlkin şəkli olan sənədli video.
+   - <audio controls>: Fon ritual musiqisi və ya səsli bələdçi.
+   - <iframe>: Qahirə / Gizah ehramlarının Google Maps xəritə keçidi.
+
+6. EHRAM TURLARI MASTER FORMASI:
+   - <fieldset> və <legend> ilə bölünmüş böyük forma:
+     - input type="text" (autofocus və required ilə)
+     - pattern="[0-9]{3}-[A-Z]{2}" (Format: 123-EG olan Bilet Kodu)
+     - <input list="..."> + <datalist> (Tur marşrutları seçimi)
+     - <select> + <optgroup> (Vip və ya Standart tur paketləri)
+     - input type="range" (Tur günlərinin sayı: min="1" max="30")
+     - input type="color" (Çadır və ya geyim rəngi)
+     - input type="file" multiple (Pasport və viza skanları)
+     - <textarea> (Bitişik yazılmış xüsusi istəklər qutusu)
+     - input type="submit" və input type="reset"
+
+7. İNTERAKTİV BÖLMƏ:
+   - <details> və <summary> daxilində "Fironların Lənəti Haqqında Gizli Məlumat" başlığı altında gizli mətn.
+================================================================================
