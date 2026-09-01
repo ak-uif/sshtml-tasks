@@ -1,39 +1,44 @@
 ==================================================
-        30 GÜNLÜK STRATEJİ ZAMAN BÜDCƏSİ
+        30 GÜNLÜK STRATEJİ ZAMAN BÜDCƏSİ (v2.0)
 ==================================================
 
-1. REJİM VƏ VAQT BÖLÜŞDÜRÜLMƏSİ (GÜNDƏLİK)
+1. QRAFİK VƏ YUXU REJİMİ
 --------------------------------------------------
-* Gecə Yuxusu:       07:00 saat (22:00 - 05:00)
-* Oyanma Sesiyası:  01:00 saat (Hazırlıq + Planlama)
-* Günorta Sesiyası: 01:15 saat (45 dəq yuxu + yemək/ehtiyac)
-* Yatma Sesiyası:   00:20 saat (Sakitləşmə)
-* Günlük Bufer:     01:00 saat (Mikro fasilələr/gecikmələr)
+* Adi Günlər (1, 3, 5, 7-ci günlər):
+  - Yuxu: 22:00 - 05:00 (7 saat)
+  - Səhər fokusu: 05:00 - 12:00 (Maksimal verim)
 
-2. HƏFTƏLİK VƏ AYLIQ MÜDDƏTLƏR (30 GÜN / 720 SAAT)
+* Kurs Günləri (2, 4, 6-cı günlər - ayda ~13 gün):
+  - Yuxu: 00:00 - 07:00 (7 saat)
+  - Kurs və Yol vaxtı: 18:00 - 23:00 (5 saat)
+
+
+2. 30 GÜNLÜK VAQT BÖLÜŞDÜRÜLMƏSİ (720 SAAT)
 --------------------------------------------------
-* Gecə Yuxusu:           210.0 saat
-* Oyanma Sesiyası:        30.0 saat
-* Günorta Sesiyası:       37.5 saat
-* Yatma Sesiyası:         10.0 saat
-* Günlük Əlavə Bufer:     30.0 saat  (30 gün x 1 saat)
-* Həftəlik Dincəlmə:      40.0 saat  (Həftədə 1 gün: 12:00-22:00)
-* Gözlənilməz İşlər:     26.0 saat  (Həftədə 3 dəfə 2 saat)
+* Gecə Yuxusu (bütün günlər 7 saat): 210.0 saat
+* Oyanma Sesiyası:                      30.0 saat
+* Günorta Sesiyası (45 dəq yuxu+yemək): 37.5 saat
+* Yatma Sesiyası:                       10.0 saat
+* Günlük Bufer (1 saat/gün):           30.0 saat
+* Həftəlik Dincəlmə (10 saat/həftə):    40.0 saat
+* Gözlənilməz İşlər:                    26.0 saat
+* Kurs və Yol Vaxtı (13 gün x 5 saat):  65.0 saat
 --------------------------------------------------
-MƏŞĞUL OLUNAN VAXT:      383.5 saat
+MƏŞĞUL OLUNAN VAXT:                    448.5 saat
+
 
 ==================================================
 YEKUN NƏTİCƏ
 ==================================================
-ÜMUMİ VAXT:              720.0 saat
-MƏŞĞUL VAXT:             383.5 saat (53.3%)
+ÜMUMİ VAXT:                            720.0 saat
+MƏŞĞUL VAXT:                           448.5 saat (62.3%)
 --------------------------------------------------
-XALİS İŞ / TƏHSİL VAXTI: 336.5 SAAT (46.7%)
-GÜNDƏLİK ORTALAMA XALİS:  11.2 SAAT
+XALİS İŞ / AZAD TƏHSİL VAXTI:          271.5 SAAT (37.7%)
+GÜNDƏLİK ORTALAMA XALİS VAXT:            9.0 SAAT
 ==================================================
 
-3. İCRA NÖQTƏLƏRİ
+3. ƏSAS NÖQTƏLƏR
 --------------------------------------------------
-- Günün ilk yarısı (05:00 - 12:00) sırf ağır zehni işlərə (proqramlaşdırma, təhsil) ayrılır.
-- Günün ikinci yarısı daha yüngül tapşırıqlar və təşkilati işlər üçün istifadə olunur.
-- Həftədə 1 gün saat 12:00-dan sonra tam aktiv istirahət rejiminə keçilir.
+- Kurs günlərində yuxu 2 saat gecikdiyi üçün həmin günlərin səhəri ritmə girmək üçün 07:00-da durulur.
+- Kursa gedən 65 saat birbaşa şəxsi inkişaf və təhsil olduğu üçün əslində itki deyil, sadəcə evdəki sərbəst iş saatından çıxılır.
+- Evdəki xalis fərdi iş, proqramlaşdırma və layihə saatın ayda 271.5 saat (gündəlik ~9 saat) təşkil edir.

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kiber tehlukesizlik</title>
+</head>
+<body bgcolor="forestgreen">
+    
+    <h1 align="center">Kiber Tehlukesizlik ve Hacking</h1>
+    
+    <br />
+    
+    <h2 align="center">Muraciet Formu</h2>
+
+    <br />
+
+
+    <fieldset style="border: 2px solid gold; padding: 10px; margin: 10 px;">
+        <legend><b><em>Sexsi melumatlar</em></b></legend>
+
+        <label for="ad">Adinizi yazin:</label>
+        <input type="text" id="ad" name="ad" placeholder="MIRZEFETELI" required>
+
+        <br />
+        <br />
+
+        <label for="gmail">E-mailinizi yazin:</label>
+        <input type="email" id="gmail" name="gmail" placeholder="blablabla@gmail.com" required>
+
+        <br />
+        <br />
+
+        <label for="tehlukesizlik">Tehlukesizlik Kodu</label>
+        <input type="text" id="tehllukesizlik" name="tehlukesizlik" value="SS-82371A" readonly>
+
+        <br />
+        <br />
+
+        <label for="dil">proqramlasdirma dili secin(Frontend,Backend):</label>
+        <select name="diller">
+            <optgroup label="Frontend">
+                <option value="html">HTML(proqramlasdirma dili deyl)</option>
+                <option value="CSS">CSS(buda deyl)</option>
+                <option value="js">JavaScript</option>
+            </optgroup>
+
+            <optgroup label="backend">
+                <option value="python">python</option>
+                <option value="java">Java</option>
+            </optgroup>
+        </select>
+    </fieldset>
+
+    <br />
+    <br />
+
+    <fieldset style="border: 2px solid gold; padding: 10px; margin: 10 px;">
+        <legend><b><em>Sebeke emlumatlari</em></b></legend>
+        
+        <label for="protokollar">Protokolu secin:</label>
+        <input type="text" id="protokollar" list="protokolsecim" name="secilenprotokol" placeholder="HTTPS">
+
+        <datalist id="protokolsecim">
+            <option value="HTTPS">HTTPS</option>
+            <option value="IP">IP</option>
+            <option value="TCP">TCP</option>
+
+        </datalist>
+    
+    </fieldset>
+
+
+</body>
+</html>

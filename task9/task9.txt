@@ -1,0 +1,31 @@
+================================================================================
+TASK 9: DÜNYA KİBER-TƏHLÜKƏSİZLİK VƏ HACKING TEST MƏRKƏZİ
+================================================================================
+
+LAYİHƏNİN MƏQSƏDİ:
+Mürəkkəb HTML forma elementlərini öyrənmək: formaları qruplaşdırmaq (<fieldset>, <legend>), 
+seçim siyahılarını kateqoriyalara bölmək (<select>, <optgroup>), avtomatik təklif verən 
+inputlar (<datalist>), Regex validation (pattern) və çoxsətirli mətn sahələri (<textarea>).
+
+--------------------------------------------------------------------------------
+MƏCBURİ HTML TEQLƏRİ CHECKLIST:
+--------------------------------------------------------------------------------
+[ ] <fieldset>          (Forma elementlərini çərçivəyə alıb qruplaşdırmaq üçün)
+[ ] <legend>            (Qruplaşdırılmış çərçivənin başlığı)
+[ ] <select>            (Açılan seçim siyahısı)
+[ ] <optgroup>          (Seçim siyahısı daxilində kateqoriya başlığı)
+[ ] <option>            (Siyahının hər bir elementi)
+[ ] <datalist>          (Input üçün avtomatik tamamlanan təkliflər siyahısı)
+[ ] option (datalist)   (Datalist daxilindəki hazır dəyərlər)
+[ ] pattern="..."       (Regex format tələbi: [0-9]{3}-[A-Z]{2})
+[ ] <textarea>          (Çoxsətirli mətn daxiletmə xanası)
+[ ] placeholder         (Xana içi köməkçi ipucu mətni)
+
+--------------------------------------------------------------------------------
+GÖSTƏRİŞLƏR VƏ ŞƏRTLƏR:
+--------------------------------------------------------------------------------
+1. Məlumatları məntiqli şəkildə qruplaşdıran 2 dənə `<fieldset>` və hər birinin üstündə `<legend>` başlıqları istifadə edin.
+2. Programlaşdırma dili seçimi üçün `<select>` daxilində `<optgroup label="...">` ilə kateqoriyalara (Frontend/Backend) bölünmüş siyahı yaradın.
+3. Şəbəkə protokolunu yazarkən avtomatik təkliflər çıxaran `<input list="IP">` və ona bağlı `<datalist id="IP">` istifadə edin.
+4. Təhlükəsizlik kodu formatını `pattern="[0-9]{3}-[A-Z]{2}"` şablonu ilə məhdudlaşdırın (Məsələn: 123-AB).
+5. Xəta jurnalı yazmaq üçün açılış və bağlanış teqləri arasında heç bir boşluq qoyulmadan bitişik yazılmış `<textarea placeholder="..."></textarea>` yerləşdirin.
