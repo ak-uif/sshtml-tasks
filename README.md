@@ -25,7 +25,7 @@ This repository contains my personal practical HTML5 tasks and exercises. Throug
 - **Advanced Forms & Validation:** Designing interactive input systems using client-side Regex validations (`pattern`), custom selections (`<optgroup>`, `<datalist>`), ranges, file uploads, and interactive controls.
 - **Data Organization:** Structuring complex multidimensional datasets using tables with row/column merging (`rowspan`, `colspan`).
 - **Multimedia Integration:** Embedding responsive media components including video players, audio streams, and external interactive Google Maps (`<iframe>`).
-- **Interactive & Dynamic Markup:** Utilizing native HTML interactive elements like collapsibles (`<details>`, `<summary>`) and real-time JavaScript-linked range outputs.
+- **Interactive & Dynamic Markup:** Utilizing native HTML interactive elements like collapsibles (`<details>`, `<summary>`) and real-time JavaScript-linked range outputs..
 
 ---
 
