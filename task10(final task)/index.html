@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MISIR TURLARI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body bgcolor="whitesmoke">
     <marquee >Diqqət! Gizli sərdabələrə giriş yalnız bələdçi ilə mümkündür!</marquee>
 
-    <h1 align="center">QƏDİM MİSİR EHRAMLARI VƏ FİRONLAR PORTALI</h1>
-    <h2 align="center">Muraciet ve melumat formu</h2>
 
     <hr size="3px" color="gold" />
 
     <header>
+
+        <h1 align="center">QƏDİM MİSİR EHRAMLARI VƏ FİRONLAR PORTALI</h1>
+        <h2 align="center">Muraciet ve melumat formu</h2>
 
         <nav align="center">
             <a href="#sulalaler">sulalaler</a>
             <a href="#fironlarinxezineleri">fironlarin xezineleri</a>
             <a href="#sekilvevideolar">sekil ve videolar</a>
             <a href="#turlar">misir turlari</a>
+            <a href="#interaktiv">Interaktiv bolme</a>
         </nav>
     </header>
 
+    <hr size="3px" color="gold" />
+
     <main>
-        <section id="sulalaler">
-            <article>
+        <section>
+            <article id="sulalaler">
                 <h3>sulalaler ve tikilileri</h3>
     <ul> 
         <li> IV Sülalə
@@ -49,16 +54,15 @@
          </ol>
     </ul>
             </article>
-        </section>
+        
 
         <hr size="3px" color="gold" />
 
-        <section id="fironlarinxezineleri">
-            <article>  
+            <article id="fironlarinxezineleri">  
 
                 <h3>fironlarin xezineleri</h3>
 
-                <table border="1" width="100%" cellspacing="3 px" cellpading="10px">
+                <table border="3" width="100%" cellpadding="10" cellspacing="0" style="border-color: rgba(0, 102, 255, 0.57);">
 
                     <tr>
                         <th>fironsulalesi</th>
@@ -83,19 +87,162 @@
                 </table>
 
             </article>
-        </section>
+            <br />
 
-        <section id="sekilvevideolar">
-            <article>
+        <hr size="3px" color="gold" />
+        <br />
+
+            <article id="sekilvevideolar">
+                <h3>MISIR HAQQINDA SEKIL VE  VIDEOLAR</h3>
+                <audio controls autoplay muted loop>
+                    <source src="denizsesi.mp3" type="audio/mpeg">
+                </audio>
+
+                <br />
+                <br />
+
+                <video 
+                src="piratesvideo.mp4" width="500px" controls poster="jacksparrow.jpg">
+                </video>
+
+                <br />
+                <br />
+
+                <iframe src="https://az.wikipedia.org/wiki/Misir_ehramlar%C4%B1" width="100%" height="200" title="misir pramidalari">
+                    
+                </iframe>
 
             </article>
-        </section>
 
-        <section id="turar">
-            <article>
+
+        <br />
+        <hr size="3px" color="gold" />
+        
+            <article id="turlar">
+                <form action="server" method="post">
+                    <fieldset style="border: 2px solid goldenrod; border-radius: 6px; margin: 10px; padding: 10px;">
+                        <legend><b><em>EHRAM TURLARI FORMU</em></b></legend>
+
+                        <label for="ad">Adinizi daxil edin:</label>
+                        <input type="text" id="ad" name="ad" autofocus required placeholder="Mes:Akif Kerimov">
+
+                        <br />
+                        <br />
+
+                        <label for="bilet">Bilet ID nizi girin:</label>
+                        <input type="text"
+                               id="bilet"
+                               name="bilet"
+                               pattern="[0-9]{3}-[A-Z]{2}"
+                               placeholder="123-AB"
+                               required
+                               title="BLET kodu 3 reqem, tire ve 2 boyuk ingilis eklifbasinda oilan herf olmalidir (Mes: 123-AB)">
+                               
+                        <br />
+                        <br />
+
+                        <label for="turmasini">Tur masini secin ve ya xususi isteyiniz varsa yazin:</label>
+                        <input type="text"
+                               id="turmasini"
+                               name="turmasini"
+                               list="masinlar">
+
+                        <datalist id="masinlar">
+                            <option value="avtobus"></option>
+                            <option value="masin"></option>
+                            <option value="ATV"></option>
+                        </datalist>
+
+                        <br />
+                        <br />
+
+                        <label for="paket">Paketi secin</label>
+                        <select id="paket" name="paket" required>
+                            <optgroup label="vip paketler">
+                                <option value="vip_ehram">vip ehram turu</option>
+                                <option value="vip_cay">vip nil cayi turu</option>
+                            </optgroup>
+
+                            <optgroup label="normal paketler">
+                                <option value="seher">standart seher turu</option>
+                                <option value="muzey">standart muzey turu</option>
+                            </optgroup>
+                        </select>
+
+                        <br />
+                        <br />
+
+                        <label for="gun">Tur Gunleri sayi:</label>
+                        <input 
+                            type="range"
+                            id="gun"
+                            name="gun"
+                            min="1"
+                            max="30"
+                            value="1"
+                            oninput="this.nextElementSibling.value = this.value + ' gün'">
+
+                        <output id="gunsayi">1 gun</output>
+
+                        <br />
+                        <br />
+
+                        <label for="reng">reng secin:</label>
+                        <input 
+                            type="color" required>
+
+                        <br />
+                        <br />
+
+                        <label for="file">fayllari secin:</label>
+                        <input type="file" multiple>
+
+                        <br />
+                        <br />
+
+                        <label for="qeyd">qeydleriniz varsa yazin:</label>
+                        <textarea id="qeyd" name="qeyd" rows="2" cols="30" placeholder="qeydinizi yazin"></textarea>
+                    
+                        <br />
+                        <br />
+
+                        <input type="submit" value="qeydiyatdan kec">
+                        <input type="reset" value="temizle">
+                    
+                    </fieldset>
+
+                </form>
 
             </article>
+
+            <hr size="3px" color="gold" />
+
+            <article id="interaktiv">
+                <details>
+                    <summary>Fironların Lənəti Haqqında Gizli Məlumat ucun toxun</summary>
+                    <p><b>Aspergillus flavus: Sərdabələrin daxilində, xüsusilə mumiya bintləri və qədim taxıl qalıqlarında min illərlə sağ qala bilən zərərli göbələk sporları aşkarlanmışdır. Məzara ilk daxil olan insanlar bu sporları nəfəs vasitəsilə qəbul etdikdə, ağciyərlərdə kəskin allergik reaksiya və ölümcül qanaxmalar (aspergilyoz) yaranırdı.Sarkofaq daxili bakteriyalar: Qapalı qalan havada yaranan Pseudomonas və Staphylococcus kimi mikroorqanizmlər zəifləmiş immun sisteminə malik arxeoloqlar üçün ölümcül təhlükə kəsb edirdi.</b></p>
+                </details>
+            </article>
+
+            
+
         </section>
+
+        <aside style="margin: 20px;">
+            <h3 align="center">Tarixi və Mədəniyyeti</h3>
+            <p style="padding: 5px;"><b>
+                Qədim Misir sivilizasiyası Nil çayının həyat verən sularının ətrafında təxminən 5000 ildən çox bir müddətdə çiçəklənmiş, bəşəriyyət tarixinin ən möhtəşəm və sirli imperiyalarından biridir. Bu sivilizasiyanın başında duran fironlar yalnız mütləq siyasi hökmdar kimi deyil, həm də tanrıların yer üzündəki canlı nümayəndələri və kainatdakı ilahi nizamin (Maat) qoruyucuları kimi qəbul edilirdilər. Fironların əbədi həyatı və ruhlarının o biri dünyada rahatlığı üçün inşa edilən Böyük Giza Piramidaları, Sfinks, Karnak və Lüksor məbədləri bugünkü müasir mühəndislik üçün də cavabsız suallar qoymağa davam edir. Misirlilərin təbabət, astronomiya, riyaziyyat və yazı sistemindəki (hiyerroqliflər) misilsiz nailiyyətləri sonrakı bütün antik sivilizasiyalara böyük təsir göstərmişdir. Bu gün Qahirə Muzeyində saxlanılan Tutanxamonun əfsanəvi qızıl maskası və məqbərə xəzinələri, zamanın fövqündə duran bu qədim mədəniyyətin zənginliyini və ehtişamını gözlər önünə sərir.
+            </p></b>
+        </aside>
     </main>
+
+
+    <hr size="3px" color="gold" />
+
+    <footer>
+        <h3 align="center">MEKAN</h3>
+        <address align="center"> milkway galaxy,duya,misir</address>
+        <p align="center">2026</p>
+    </footer>
 </body>
 </html>
